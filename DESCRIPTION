@@ -1,0 +1,30 @@
+Package: easyMicrobiome
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <2018203048@njau.edu.cn>
+Description: For this work,we attending for many easy codes which are useful.
+License: my first R packages
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0),
+    ggplot2
+Imports:
+    ggrepel,
+    agricolae,
+    vegan,
+    dplyr,
+    reshape2
+Suggests:
+    phyloseq,
+    microbiome,
+    metagenomeSeq,
+    ggpubr,
+    ggsci,
+    BiocManager,
+    Matrix,
+    knitr,
+    rmarkdown
+    
