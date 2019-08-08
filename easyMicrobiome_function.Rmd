@@ -1,0 +1,49 @@
+---
+title: "easyMicrobiome_function"
+author: "wentao"
+date: "2019/8/6"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 我不断的丰富这个包的内容
+
+### 函数第一个功能-合并phyloseq对象
+
+```{r cars}
+library(easyMicrobiome)
+library("phyloseq")
+# ps1 = readRDS("./data/ps1.rds")
+# ps2 = readRDS("./data/ps2.rds")
+
+ps_merge = merge_ps(ps1,ps2,model = 1)
+ps_merge
+
+
+
+```
+
+### 第二个功能
+
+随机僧林预测需要OTU相同，所以这里我写了一个函数，输入建模phyloseq对象和预测的phylsoeq，和模型，即可预测目标phyloseq对象
+
+目前尚未编写帮助文件
+
+```{R}
+
+predict_rand_tax
+
+```
+### 第三个功能
+
+来源于science的组合图表
+
+
+
+
+
+
+
